@@ -7,48 +7,49 @@ content = """
 </head>
 <body>
     <table align="center" border="2" cellspacing="2" cellpadding="5">
-		<caption>TOP FIVE COMPANIES:</caption>
+		<caption>LAPTOP CONFIGURATION</caption>
+        <caption>Mohan S 212223240094</caption>
         <tr>
 			<th>S.NO</th>
-			<th>COMPANY NAME</th>
-			<th>COUNTRY</th>
-            <th>Year OF Foundation</th>
+			<th>Description</th>
+			<th>Specifications</th>
+            
 		</tr>
 		<tr align="center">
 			<td>1.</td>
-			<td>Microsoft</td>
-			<td>USA</td>
-            <td>1975</td>
+			<td>Brand</td>
+			<td>Lenovo</td>
 		</tr>
 		<tr align="center">
 			<td>2.</td>
-			<td>Apple</td>
-			<td>USA</td>
-            <td>1976</td>
+			<td>Model Name</td>
+            <td>Thinkpad E15</td>
 			
-		
 		</tr>
 		<tr align="center">
 
 			<td>3.</td>
-			<td>Alphabet</td>
-			<td>USA</td>
-            <td>2015</td>
+			<td>Screen Size</td>
+			<td>15.6 Inches</td>
 		</tr>
         <tr align="center">
 
 			<td>4.</td>
-			<td>Amazon</td>
-			<td>USA</td>
-            <td>1994</td>
+			<td>Hard Disk Size</td>
+			<td>512 GB</td>
 		</tr>
         <tr align="center">
 
 			<td>5.</td>
-			<td>Nvidia</td>
-			<td>USA</td>
-            <td>1993</td>
+			<td>CPU Model</td>
+			<td>Core i5</td>
 		</tr>
+        <tr align="center">
+            <td>6.</td>
+			<td>RAM Memory</td>
+			<td>16 GB</td>
+		</tr>
+        
 
 	</table>
 </body>

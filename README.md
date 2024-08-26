@@ -22,79 +22,64 @@ Testing the webserver.
 
 ## PROGRAM:
 ```
-from http.server import HTTPServer, BaseHTTPRequestHandler
-content = """
-<!DOCTYPE html>
 <html>
 <head>
 <title>My webserver</title>
 </head>
 <body>
     <table align="center" border="2" cellspacing="2" cellpadding="5">
-		<caption>TOP FIVE COMPANIES:</caption>
+		<caption>LAPTOP CONFIGURATION</caption>
+        <caption>Mohan S 212223240094</caption>
         <tr>
 			<th>S.NO</th>
-			<th>COMPANY NAME</th>
-			<th>COUNTRY</th>
-            <th>Year OF Foundation</th>
+			<th>Description</th>
+			<th>Specifications</th>
+            
 		</tr>
 		<tr align="center">
 			<td>1.</td>
-			<td>Microsoft</td>
-			<td>USA</td>
-            <td>1975</td>
+			<td>Brand</td>
+			<td>Lenovo</td>
 		</tr>
 		<tr align="center">
 			<td>2.</td>
-			<td>Apple</td>
-			<td>USA</td>
-            <td>1976</td>
+			<td>Model Name</td>
+            <td>Thinkpad E15</td>
 			
-		
 		</tr>
 		<tr align="center">
 
 			<td>3.</td>
-			<td>Alphabet</td>
-			<td>USA</td>
-            <td>2015</td>
+			<td>Screen Size</td>
+			<td>15.6 Inches</td>
 		</tr>
         <tr align="center">
 
 			<td>4.</td>
-			<td>Amazon</td>
-			<td>USA</td>
-            <td>1994</td>
+			<td>Hard Disk Size</td>
+			<td>512 GB</td>
 		</tr>
         <tr align="center">
 
 			<td>5.</td>
-			<td>Nvidia</td>
-			<td>USA</td>
-            <td>1993</td>
+			<td>CPU Model</td>
+			<td>Core i5</td>
 		</tr>
+        <tr align="center">
+            <td>6.</td>
+			<td>RAM Memory</td>
+			<td>16 GB</td>
+		</tr>
+        
 
 	</table>
 </body>
 </html>
-
-"""
-class myhandler(BaseHTTPRequestHandler):
-    def do_GET(self):
-        print("request received")
-        self.send_response(200)
-        self.send_header('content-type', 'text/html; charset=utf-8')
-        self.end_headers()
-        self.wfile.write(content.encode())
-server_address = ('',8000)
-httpd = HTTPServer(server_address,myhandler)
-print("my webserver is running...")
-httpd.serve_forever()
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot 2024-03-15 092331.png>)
-![alt text](<Screenshot 2024-03-15 092348.png>)
+![alt text](<Screenshot 2024-08-26 203216.png>)
+![alt text](<Screenshot 2024-08-26 203255.png>)
 
 
 ## RESULT:
